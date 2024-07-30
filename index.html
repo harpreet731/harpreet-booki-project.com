@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Booki</title>
+</head>
+
+<body>
+    <div class="padding-box">
+        <header id="header">
+            <div class="logo">
+                <img src="./images/logo/Booki@3x.png" alt="logo" />
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#accommodations">Accommodations</a>
+                    </li>
+                    <li>
+                        <a href="#activities">Activities</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav id="search">
+            <h1>Find a place for your dream vacation</h1>
+            <p>Downtown or in nature</p>
+            <form action="./index.html" method="get">
+                <span class="input-text"><i class="fa-solid fa-location-dot"></i></span>
+                <input name="search-text" type="text" placeholder="Marseille, France" />
+                <button type="submit"><span class="search-text">Search</span><span class="search-icon"><i
+                            class="fa-solid fa-magnifying-glass"></i></span></button>
+
+            </form>
+        </nav>
+
+
+        <div id="filters">
+            <h2>Filters</h2>
+            <div class="filter-buttons">
+                <button class="small-filter"><i class="fa-solid fa-money-bill"></i><b>Low-cost</b></button>
+                <button><i class="fa-solid fa-person"></i><b>Family-friendly</b></button>
+                <button class="small-filter"><i class="fa-solid fa-heart"></i><b>Romantic</b></button>
+                <button><i class="fa-solid fa-dog"></i><b>Pets allowed</b></button>
+            </div>
+        </div>
+        <div class="fp"><i class="fa-sharp fa-solid fa-info"></i>More than 500 accommodations area available in this
+            city
+        </div>
+        <main>
+            <div id="accommodations">
+                <div class="left">
+                    <h2>Accommodations in Marseille</h2>
+                    <div class="inner-left">
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/7.jpg" alt="Hostel room img" />
+                            </div>
+                            <div class="content">
+                                <h4>Auberge La Cannebiere</h4>
+                                <p>Night starting at <b>25&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;</span><span
+                                    class="grey-star">&bigstar;</span>
+                            </div>
+                        </a>
+
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/6.jpg"
+                                    alt="hotel du port room picture" /></div>
+                            <div class="content">
+                                <h4>Hotel du port</h4>
+                                <p>Night starting at <b>52&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+                            </div>
+                        </a>
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/9.jpg"
+                                    alt="Les mouettes Hotel room piture" /></div>
+                            <div class="content">
+                                <h4>Les mouettes Hotel</h4>
+                                <p>Night starting at <b>76&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;<span
+                                        class="grey-star">&bigstar;</span></span>
+                            </div>
+                        </a>
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/1.jpg"
+                                    alt="Hotel de la mer room picture" /></div>
+                            <div class="content">
+                                <h4>Hotel de la mer</h4>
+                                <p>Night starting at <b>46&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;<span
+                                        class="grey-star">&bigstar;&bigstar;</span></span>
+                            </div>
+                        </a>
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/8.jpg"
+                                    alt="Auberge Le Panier hotel room picture" /></div>
+                            <div class="content">
+                                <h4>Auberge Le Panier</h4>
+                                <p>Night starting at <b>23&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;<span
+                                        class="grey-star">&bigstar;</span></span>
+                            </div>
+                        </a>
+                        <a class="card" href="#">
+                            <div class="card-img"><img src="./images/hebergements/4_small/4.jpg"
+                                    alt="Hotel chez Amina room picture" /></div>
+                            <div class="content">
+                                <h4>Hotel chez Amina</h4>
+                                <p>Night starting at <b>96&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="lower" href="#"><b>Show more</b></a>
+                </div>
+
+
+            </div>
+            <div class="right">
+                <h2><span>Most Popular</span><span>&bigstar;</span></h2>
+                <div id="inner-right">
+                    <a class="card-right" href="#">
+                        <div class="card-rightimg">
+                            <img src="./images/hebergements/4_small/3.jpg" alt="Morning Sun Hotel room picture" />
+                        </div>
+                        <div class="card-righttext">
+                            <div class="content">
+                                <h4>Morning Sun Hotel</h4>
+                                <p>Night starting at <b>128&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card-right" href="#">
+                        <div class="card-rightimg">
+                            <img src="./images/hebergements/4_small/2.jpg"
+                                alt="Au coeur de l'eau Bed and Breakfast room picture" />
+                        </div>
+                        <div class="card-righttext">
+                            <div class="content">
+                                <h4>Au coeur de l'eau Bed and Breakfast</h4>
+                                <p>Night starting at <b>71&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;<span
+                                        class="grey-star">&bigstar;</span></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card-right" href="#">
+                        <div class="card-rightimg">
+                            <img src="./images/hebergements/4_small/5.jpg" alt="Tout bleu et Blanc Hotel room picture" />
+                        </div>
+                        <div class="card-righttext">
+                            <div class="content">
+                                <h4>Tout bleu et Blanc Hotel</h4>
+                                <p>Night starting at <b>68&euro;</b></p>
+                                <span class="rating">&bigstar;&bigstar;&bigstar;&bigstar;<span
+                                        class="grey-star">&bigstar;</span></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <section class="activity-section">
+
+            <h2 class="acitivity-heading">Activities in Marseille</h2>
+            <div id="activities">
+                <a href="#">
+                    <div class="bottom">
+                        <div class="full-img"><img src="./images/activites/4_small/6.jpg" alt="old port of ships" />
+                            <h3>Old Port</h3>
+                        </div>
+                    </div>
+                </a>
+                <div class="activity-container">
+                    <a href="#">
+                        <div class="half-img"><img src="./images/activites/4_small/5.jpg" alt="Pomegues Fort" />
+                            <h3>Pomegues Fort</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="half-img"><img src="./images/activites/4_small/2.jpg"
+                                alt="small telescope at lake bridge" />
+                            <h3>Frioul Island</h3>
+                        </div>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="bottom">
+                        <div class="full-img"><img src="./images/activites/4_small/3.jpg"
+                                alt="Calanques National Park built near mountain and ocean" />
+                            <h3>Calanques National Park</h3>
+                        </div>
+                    </div>
+                </a>
+                <div class="activity-container">
+                    <a href="#">
+                        <div class="half-img"><img src="./images/activites/4_small/1.jpg"
+                                alt="Notre-Dame-de-la-Garde city view" />
+                            <h3>Notre-Dame-de-la-Garde</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="half-img"><img src="./images/activites/4_small/4.jpg" alt="Longchamp Park" />
+                            <h3>Longchamp Park</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-item">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Site map</a></li>
+                    <li><a href="#">General terms and conditons</a></li>
+                    <li><a href="#">Date and privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4>Our Accommodations</h4>
+                <ul>
+                    <li><a href="#">Quality Assessment</a></li>
+                    <li><a href="#">You have a hotel?</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4>Assistance</h4>
+                <ul>
+                    <li><a href="#">Help desk</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
